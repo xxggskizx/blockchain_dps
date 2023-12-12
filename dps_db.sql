@@ -2,7 +2,7 @@ CREATE TABLE breach (
    id INT PRIMARY KEY,
    type VARCHAR(255),
    offender VARCHAR(255),
-   article FLOAT,
+   time FLOAT,
    fine INT
 );
 INSERT INTO breach (id, type, offender, time, fine)
